@@ -731,3 +731,41 @@ body {
 }
 
 /* End Testimoials */
+/* Start team member */
+.team-member {
+  padding: 60px 0;
+}
+.team-member .container {
+}
+.all {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.team-member .container .box ul {
+  position: absolute;
+  top: 20%;
+  right: -40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.team-member .container .box ul li a {
+  color: #666;
+}
+.team-member .container .box .caption {
+  position: relative;
+  padding-left: 70px;
+}
+.team-member .container .box .caption h1 {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #2196f3;
+}
+.team-member .container .box .caption p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+/* End team member */
